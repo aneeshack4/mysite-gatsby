@@ -31,8 +31,8 @@ const Header = ({ siteTitle }) => (
         </Link>
         <Stack horizontal gap={10}>
         <DefaultButton styles={{ root: {backgroundColor: '#ff9cee', border: 'none'}}}>Now</DefaultButton>
-        <DefaultButton styles={{ root: {backgroundColor: '#ff9cee', border: 'none'}}}>Travel</DefaultButton>
-        <DefaultButton styles={{ root: {backgroundColor: '#ff9cee', border: 'none'}}}>Resume</DefaultButton>
+        <DefaultButton styles={{ root: {backgroundColor: '#ff9cee', border: 'none'}}} href="https://www.aneeshack.com/blog/firenze-toscana-italia">Travel</DefaultButton>
+        <DefaultButton styles={{ root: {backgroundColor: '#ff9cee', border: 'none'}}} href="https://drive.google.com/file/d/1ocguOf27_bdCpAIERyPJHUGNJxzBUJaa/view?usp=sharing">Resume</DefaultButton>
         </Stack>
         </Stack>
       </h1>
